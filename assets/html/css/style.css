@@ -14,10 +14,10 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 45%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 6rem;
+  scroll-padding-top: 5rem;
 }
 
 html::-webkit-scrollbar {
@@ -139,7 +139,7 @@ section {
 }
 
 .login-form form {
-  width: 50rem;
+  width: 60rem;
   padding: 4rem;
   background: #fff;
   text-align: center;
@@ -237,7 +237,7 @@ section {
 
 .home {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/home-bg.jpg) no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/home-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/home-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -601,7 +601,7 @@ section {
 }
 
 .blogs .box-container .box .content {
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -646,8 +646,8 @@ section {
 }
 
 .newsletter {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/newsletter-bg.jpg) no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/newsletter-bg.jpg) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/newsletter-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/newsletter-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -728,16 +728,16 @@ section {
 
 @media (max-width: 991px) {
   html {
-    font-size: 55%;
+    font-size: 45%;
     scroll-padding-top: 8rem;
   }
 
   .home h3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   section {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 }
 
@@ -747,7 +747,7 @@ section {
   }
 
   .login-form form h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .header {
@@ -793,12 +793,50 @@ section {
   }
 
   .contact .map {
-    height: 25rem;
+    height: 20rem;
   }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  .header #menu-btn {
+    display: inline-block;
+  }
+
+  .header #menu-btn.fa-times {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .header .nav.active {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem;
+  }
+
+  .header .nav a {
+    display: block;
+    margin: 1rem 0;
+    color: #222;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home h3 {
+    font-size: 2rem;
   }
 }
