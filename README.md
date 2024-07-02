@@ -1,34 +1,42 @@
 # DevCoffee
-Este repositório documenta o projeto integrador que combina a produção de especiarias de café com a automação de processos. O principal objetivo é apresentar a funcionalidade intuitiva do site e como ela confere credibilidade aos novos participantes da indústria da produção de café. Implementado em JavaScript, HTML e CSS.
 
-## Objetivos
+This repository documents the integrative project that combines coffee spice production with process automation. The main objective is to showcase the intuitive functionality of the website and how it provides credibility to new participants in the coffee production industry. The project is implemented in JavaScript, HTML, and CSS.
 
-O projeto tem como alvo atingir os seguintes objetivos:
-- Apresentação de uma plataforma online intuitiva para acesso a informações sobre os produtos e processos.
-- Construção de confiança e credibilidade entre os novos participantes da indústria do café.
+## Objectives
 
-## Funcionamento da Automação
+The DevCoffee project aims to achieve the following objectives:
 
-A automação é aplicada em várias etapas do processo de produção de especiarias de café:
-- Plantio: Sementes selecionados são plantadas em viveiros especiais. O solo é preparado para fornecer nutrientes ideais. Existem duas espécies principais no Brasil: Arábica (climas ameno) e Robusta (temperaturas médias).
-- Colheita: Os frutos maduros são colhidos entre maio e agosto. Pode ser feito manualmente, por derriça (usando plásticos) ou por máquinas.
-- Secagem: Os grãos são limpos, despolpados e secos em terreiros ou máquinas até atingirem a umidade correta.
-- Classificação: Especialistas avaliam os grãos quanto a defeitos e qualidade, seguindo normas internacionais.
-- Torra: Aquecimento acima de 140°C transforma os grãos, gerando aromas e sabores únicos.
-- Embalagem: Café é embalado para manter suas características até o preparo.
+- **Intuitive Platform**: Present an easy-to-use online platform for accessing detailed information about coffee products and production processes.
+- **Building Trust**: Establish trust and credibility among new participants in the coffee industry.
 
-## Funcionalidades da Plataforma
+## Automation Process
 
-A plataforma online oferece as seguintes funcionalidades:
-- Acesso a informações detalhadas sobre as especiarias de café produzidas.
-- Demonstração visual dos processos automatizados através de capturas de tela.
+Automation is applied at various stages of the coffee spice production process:
 
-## Recursos Relacionados
+- **Planting**: Selected seeds are planted in special nurseries. The soil is prepared to provide ideal nutrients. There are two main species in Brazil: Arabica (mild climates) and Robusta (medium temperatures).
+- **Harvesting**: The ripe fruits are harvested between May and August. Harvesting can be done manually, by stripping (using plastics), or by machines.
+- **Drying**: The beans are cleaned, pulped, and dried in patios or machines until they reach the correct moisture level.
+- **Grading**: Specialists evaluate the beans for defects and quality, following international standards.
+- **Roasting**: Heating above 140°C transforms the beans, generating unique aromas and flavors.
+- **Packaging**: The coffee is packaged to preserve its characteristics until preparation.
 
-- Saiba mais sobre a automação de café: https://www.grupoescolar.com/pesquisa/etapas-da-producao-do-cafe.html
+## Platform Features
 
-## Licença
-Este projeto está licenciado sob uma licença MIT .
+The DevCoffee online platform offers the following features:
 
-## Contato
-E-mail: marcellasantoscardoso@gmail.com
+- **Detailed Information**: Access detailed information about the produced coffee spices.
+- **Visual Demonstrations**: Visual demonstration of the automated processes through screenshots and explanatory videos.
+
+## Related Resources
+
+To learn more about coffee automation, check out this [detailed article](https://www.grupoescolar.com/pesquisa/etapas-da-producao-do-cafe.html).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For more information or questions, contact:
+- **Email**: marcellasantoscardoso@gmail.com
+
